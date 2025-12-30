@@ -15,10 +15,3 @@ export interface ChatMessageResponse {
   sessionId: string;
 }
 
-export interface ChatHistoryResponse {
-  messages: Array<{
-    text: string;
-    sender: 'user' | 'ai';
-    timestamp: number;
-  }>;
-}
