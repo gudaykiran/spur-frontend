@@ -23,9 +23,3 @@
   [headers.values]
     Cache-Control = "max-age=0, no-cache, no-store, must-revalidate"
     Content-Type = "text/html; charset=utf-8"
-
-# Redirect all routes to index.html for SPA routing
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
